@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Umfrage Weiterleitung</title>
+    <script>
+        var urls = [
+            "https://docs.google.com/forms/d/e/1FAIpQLSdiKFMRoVtvLmRegnZ9jtYsP8qz1IIuuceP_djALnpQOTePAw/viewform?usp=header",
+            "https://docs.google.com/forms/d/e/1FAIpQLSeG94dhqlb6npRr8AkLiwIZGuUx-nkWlie0ocl1ftY-LwoaOw/viewform?usp=header"
+        ];
+        var randomIndex = Math.floor(Math.random() * urls.length);
+        window.location.href = urls[randomIndex];
+    </script>
+</head>
+<body>
+    <p>Du wirst weitergeleitet...</p>
+</body>
+</html>
